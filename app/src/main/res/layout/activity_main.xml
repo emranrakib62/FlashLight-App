@@ -6,14 +6,25 @@
     android:background="@drawable/bc">
 
     <Button
+        android:text="ON/OFF"
         android:backgroundTint="#696969"
         android:layout_gravity="center"
         android:layout_marginTop="198dp"
         android:id="@+id/flashlightButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
-
         android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="280dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="FlashLight"
+    android:textColor="@color/white"
+    android:textSize="60sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_gravity="center" />
 
 
 </LinearLayout>
